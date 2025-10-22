@@ -54,25 +54,46 @@
     background-color: var(--yellow);
     font-weight: 600;
 }
+.button--secondery{
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem ;
+    color: var(--yellow);
+    background-color: var(--red) ;
+    font-weight: 600;
+}
+.button--outlined--light , .button--outlined--yellow{
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem ;
+    color: var(--light);
+    background: none;
+    border: 2px solid var(--light);
+    font-weight: 600;
+}
+.button--outlined--yellow{
+    color: var(--yellow);
+    border: 2 solid var(--yellow);
+}
 .d-flex{
     display: flex;
 }
 
 body{
+
     font-size: 1rem;
     display: flex;
-
     justify-content: center;
     align-items: center;
     margin: 0;
     height: 100vh;
-    background: linear-gradient(to bottom, var(--red), var(--dark));
+    background: linear-gradient(to bottom, #730303, var(--dark));
 }
 
 
 
 
-@media (min-width: 1024px) {
+@media (max-width: 786px) {
   body{
     font-size: 20px;
     padding: 30px;
