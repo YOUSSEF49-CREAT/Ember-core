@@ -1,0 +1,30 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap-3 {
+    gap: 3;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.content-around {
+    justify-content: space-around;
+}
+.content-between {
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+
+.items-center {
+    align-items: center;
+
+}
