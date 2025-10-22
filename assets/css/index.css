@@ -34,6 +34,9 @@
 .hero__container {
     padding: 10%;
 }
+.logo__title{
+    color: var(--yellow );
+}
 .hero__content {
     display: flex;
     flex-direction: column;
