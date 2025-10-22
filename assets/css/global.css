@@ -52,15 +52,30 @@ body{
 
 }
 
-.button--primary{
+.button--primary , .button--secondery{
     font-size: 14px;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem ;
-    color: var(--light_red);
+    color: var(--red);
     background-color: var(--yellow);
     font-weight: 600;
 }
-
+.button--secondery{
+    color: var(--yellow);
+    background-color: var(--red);
+}
+.button--outlined-white , .button--outlined-yellow{
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem ;
+    background: none;
+    color: var(--light);
+    border: 2 solid var(--light);
+}
+.button--outlined-yellow{
+    color: var(--yellow);
+    border: 2 solid var(--yellow);
+}
 .nav__logo-link{
     display: flex;
     align-items: center;
