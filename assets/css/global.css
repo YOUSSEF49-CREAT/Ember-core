@@ -1,0 +1,21 @@
+@import url(./helpers.css);
+.nav__logo-link{
+    display: flex;
+    align-items: center;
+    width: 15rem;
+}
+.nav__logo-link h3{
+    color: #FFC300;
+
+}
+.navbar ul{
+    display: flex;
+    height: 100%;
+    width: 30rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul button{
+   width: 8.375rem;
+   height: 2.25rem;
+}
