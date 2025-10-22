@@ -14,7 +14,7 @@ body {
 
 /* BASIC SETUP */
 
-.page-wrapper {
+.page-wrapper  {
   width: 100%;
   height: auto;
 }
@@ -22,9 +22,9 @@ body {
 .nav-wrapper {
   width: 100%;
   position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
-  background-color: #fff;
+  background-color: #c72222;
   z-index: 100;
 }
 
