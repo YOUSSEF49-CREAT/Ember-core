@@ -22,6 +22,7 @@
 .hero__title {
     margin-top: 0;
     font-size: 60px;
+    font-weight: 600;
     /* width: 40%; */
     text-align: start;
     color: #FF6B00;
@@ -70,4 +71,5 @@
 }
 .hero__text{
     color:var( --light);
+    font-weight: 300;
 }

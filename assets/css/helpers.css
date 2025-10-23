@@ -24,7 +24,7 @@ body {
   padding: 10px 20px;
   top: 0;
   width: 100%;
-  background-color: var(--red-pinkish);
+  background: linear-gradient(to top , #370007 , var(--red-pinkish));
   /* height: 40px; */
   z-index: 100;
 }
@@ -209,14 +209,16 @@ input {
 
 @media only screen and (max-width: 720px) {
   /* MOBILE NAVIGATION */
-
+.navbar{
+  margin-right: 0px;
+}
   .navbar ul {
     display: flex;
     flex-direction: column;
     position: fixed;
     justify-content: start;
     top: 55px;
-    background-color: #fff;
+    background:linear-gradient(to bottom , #370007 , var(--red-pinkish));
     width: 100%;
     height: calc(100vh - 55px);
     transform: translate(-101%);
