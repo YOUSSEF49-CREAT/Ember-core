@@ -76,3 +76,9 @@ main::before {
 .signup_container button {
     width: 10rem;
 }
+.signup_container a {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    align-self: flex-start;
+    color: var(--orange);
+}

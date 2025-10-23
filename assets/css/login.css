@@ -75,8 +75,12 @@ main::before {
     width: 10rem;
 }
 .login_container a{
-    margin-left: 1rem;
     font-size: 0.8rem;
-    align-self: flex-start;
     color: var(--orange);
+}
+.login_alt{
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
