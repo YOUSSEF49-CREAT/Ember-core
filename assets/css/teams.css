@@ -1,0 +1,98 @@
+main{
+    padding: 6rem 0.5rem;
+    background: linear-gradient(to bottom,#4F0202, #110000);
+}
+.teams{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+.teams h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--yellow);
+    text-shadow: 0 0 1.5rem var(--orange);
+}
+.teams .text{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.teams h3{
+    font-weight: 300;
+    color: var(--light);
+}
+.search_bar{
+    width: 100%;
+}
+.search_bar input{
+    border: none;
+    width: 80%;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: var(--red-pinkish);
+    color: var(--yellow);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.search_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--yellow);
+    gap: 0.5rem;
+}
+.search_bar .icon{
+    height: 3rem;
+    width: 3rem;
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    background-color: var(--red-pinkish);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .search_bar input{
+    padding: 1rem;
+    padding: auto;
+    width: 90%;
+    background: none;
+    border: none;
+    color: var(--yellow);
+    font-weight: 500;
+    font-size: 1rem;
+} */
+.teams input::placeholder{
+    color: var(--grey);
+}
+
+.teams_cards{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    
+}
+.team_card{
+
+    width: 225px;
+    border-radius: 2rem;
+    overflow: hidden;
+    background:linear-gradient(to bottom,var(--red-pinkish),var(--red-pinkish),var(--red-pinkish), #2b0202);
+}
+.team_card p{
+    padding: 0.5rem;
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
