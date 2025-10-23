@@ -130,7 +130,7 @@ input {
 .menu-toggle .bar {
   width: 25px;
   height: 3px;
-  background-color: #3f3f3f;
+  background-color: var(--yellow);
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
