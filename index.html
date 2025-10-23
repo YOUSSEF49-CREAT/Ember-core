@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -18,22 +19,46 @@
 
 <body>
     <header class="header">
+        <div class="page-wrapper">
+            <div class="nav-wrapper">
+                <!-- <div class="grad-bar"></div> -->
+                <nav class="navbar">
+                   <div class="logo__container d-flex items-center gap-3">
+                        <img src="./assets/images/logo.webp" alt="logo">
+                       <h3 class="logo__title"> Ember Core</h3>
+                   </div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="./pages/tournaments.html">Tournaments</a></li>
+                        <li class="nav-item"><a href="./pages/teams.html">Teams</a></li>
+                        <li class="nav-item"><a href="./pages/games.html">Games</a></li>
+                        <li class="nav-item"><a href="./pages/blogs.html">Blogs</a></li>
+                        <li class="nav-item"><a href=" ./pages/events.html">Events</a></li>
+                        <li class="nav-item"><a href="./pages/contact.html">Contact</a></li>
+                        <li><button class="button button--primary">Join Now</button></li>
 
-
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <main class="main">
         <section class="hero ">
-            <div class="hero__container d-flex ">
+            <div class="hero__container d-flex content-around">
                 <div class="hero__content">
                     <h1 class="hero__title">Level Up Your Game. Dominate the Competition.</h1>
                     <p class="hero__text">Join global tournaments, discover elite teams, and dominate the leaderboard.
                     </p>
-                    <div class="hero__actions">
-                        <button class="button button--primary">
+                    <div class="hero__actions d-flex">
+                        <button class="button button--secondery">
                             <i class="fa fa-trophy" aria-hidden="true"></i>
                             Start Competing
                         </button>
-                        <button class="button button--outlined">
+                        <button class="button button--outlined-white">
                             <i class="fa fa-play" aria-hidden="true"></i>
                             Watch Live
                         </button>
@@ -44,6 +69,19 @@
                 </div>
             </div>
         </section>
+
+
+
+         <section class="cta">
+            <div class="cta__container">
+                <div class="cta-logo">
+                    <img src="/assets/images/logo.png" alt="">
+                </div>
+                    <p class="cta__text">Create your account today and start competing in tournaments, joining elite teams, and climbing the leaderboard.</p>
+                <button class="button button--primary">Join now</button>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
