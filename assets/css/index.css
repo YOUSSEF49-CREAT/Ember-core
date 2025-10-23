@@ -72,4 +72,35 @@
 .hero__text{
     color:var( --light);
     font-weight: 300;
+}main{
+    background: linear-gradient(to bottom,#4F0202, #110000);
+}
+.cta{
+    display: flex;
+    justify-content: center;
+}
+.cta__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 700px;
+    width: 90%;
+    background: linear-gradient(to bottom,#4F0202, #21040482);
+    border-radius: 2rem;
+    padding: 0rem 1rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    margin: 2rem 0rem;
+}
+.cta-logo{
+    height: 120px;
+}
+.cta-logo img{
+    width: 150px;
+}
+.cta__container p{
+    color: var(--light);
+    font-size: 12px;
 }
