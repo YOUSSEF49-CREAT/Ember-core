@@ -19,22 +19,47 @@
 
 <body>
     <header class="header">
+        <div class="page-wrapper">
+            <div class="nav-wrapper">
+                <!-- <div class="grad-bar"></div> -->
+                <nav class="navbar">
+                   <div class="logo__container d-flex items-center gap-3">
+                        <img src="./assets/images/logo.webp" alt="logo">
+                       <h3 class="logo__title"> Ember Core</h3>
+                   </div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="#">Tournaments</a></li>
+                        <li class="nav-item"><a href="#">Teams</a></li>
+                        <li class="nav-item"><a href="#">Games</a></li>
+                        <li class="nav-item"><a href="#">Blogs</a></li>
+                        <li class="nav-item"><a href="#">Events</a></li>
+                        <li class="nav-item"><a href="#">Contact</a></li>
+                        <li><button class="button button--primary">Join Now</button></li>
 
-
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <main class="main">
         <section class="hero ">
-            <div class="hero__container d-flex ">
+            <div class="hero__container d-flex content-around">
                 <div class="hero__content">
                     <h1 class="hero__title">Level Up Your Game. Dominate the Competition.</h1>
                     <p class="hero__text">Join global tournaments, discover elite teams, and dominate the leaderboard.
                     </p>
-                    <div class="hero__actions">
-                        <button class="button button--primary">
+                    <div class="hero__actions d-flex">
+                        <button class="button button--secondery">
                             <i class="fa fa-trophy" aria-hidden="true"></i>
                             Start Competing
                         </button>
-                        <button class="button button--outlined">
+                        <button class="button button--outlined-white">
                             <i class="fa fa-play" aria-hidden="true"></i>
                             Watch Live
                         </button>
