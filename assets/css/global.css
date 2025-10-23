@@ -15,6 +15,7 @@
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     border: none;
+    transition: all 0.3 ease;
 }
 
 .d-flex {
@@ -84,6 +85,31 @@ body{
 .nav__logo-link h3{
     color: #FFC300;
 
+}
+.button--primary:hover , .button--secondery:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--orange);
+}
+.button--primary:active , .button--secondery:active{
+    color: var(--orange);
+    background-color: var(--light);
+}
+.button--outlined-white:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--light);
+}
+.button--outlined-white:active{
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.button--outlined-yellow:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--yellow);
+}
+.button--outlined-yellow:active{
+    background-color: var(--yellow);
+    color: var(--dark);
 }
 .navbar ul{
     display: flex;
