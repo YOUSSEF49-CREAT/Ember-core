@@ -22,17 +22,30 @@
     margin: auto;
     position: relative;
     border-radius: 20px;
+     
 }
+
+
 .game__image{
     object-fit: cover;
+    position: relative;
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    transition: 0.6s;
+}
+
+
+.game__image:hover{
+    box-shadow: 0 0 30px var(--yellow);
+    scale: 1.05;
+
 }
 .carte__game__content{
     position: absolute;
     left: 40px;
     bottom: 40px;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -56,7 +69,6 @@
     border-radius: 16px;
     background-color: #FFC300;
     box-shadow: 0 0 20px #FFC300;
-    flex-grow: 1;
 }
 .cart__games-globale{
     display: flex;
@@ -84,7 +96,6 @@
     border-radius: 16px;
     background-color: #FFC300;
     box-shadow: 0 0 20px #FFC300;
-    flex-grow: 1;
 }
 .carte__game__link{
     display: flex;
@@ -96,8 +107,6 @@
 .cart__game__text{
     color: white;
     font-size: 15px;
-    flex-grow: 1;
-
 }
  
 }
