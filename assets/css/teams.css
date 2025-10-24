@@ -1,6 +1,6 @@
 main{
     padding: 6rem 0.5rem;
-    background: linear-gradient(to bottom,#4F0202, #110000);
+    background: linear-gradient(to bottom, #110000,#4F0202);
 }
 .teams{
     text-align: center;
@@ -84,15 +84,21 @@ main{
     
 }
 .team_card{
-
     width: 225px;
     border-radius: 2rem;
+    color: var(--yellow);
     overflow: hidden;
     background:linear-gradient(to bottom,var(--red-pinkish),var(--red-pinkish),var(--red-pinkish), #2b0202);
 }
 .team_card p{
     padding: 0.5rem;
-    color: var(--yellow);
     font-weight: 600;
     font-size: 1.2rem;
+}
+.team_card:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background: var(--yellow);
+    color:var(--red);
+    box-shadow: 0 0 1rem;
 }

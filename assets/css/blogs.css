@@ -1,5 +1,5 @@
 .blogs{
-    background-color: #360a0a;
+    background: linear-gradient(to bottom, #110000,#4F0202);
     width: 100%;
     padding: 100px 0;
 }
@@ -11,7 +11,7 @@
 }
 .blogs__text{
     text-align: center;
-    font-size: 24px;
+    font-size: 1rem;
     margin: 10px;
     color:var(--grey); 
 }
@@ -42,10 +42,10 @@
 }
 .blog__card__content h3{
     color: var(--orange);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .blog__card__content {
-    font-size: 24px;
+    font-size: 1rem;
     color: var(--grey);
 }
 .blog__card__con-bottom{
@@ -54,12 +54,10 @@
 }
 .blog__user i , .blog__user a , .blog__card__con-bottom a{
     color: #DA8A51;
-    font-size: 24px;
+    font-size: 1rem;
 }
 .blog__user{
     width: 250px;
-    display: flex;
-    justify-content: space-around;
 }
 .blogs__heading , .blogs__heading-b {
     display: flex;
@@ -83,22 +81,22 @@
 }
 .blog__card__con-bottom-r h3 {
      color: var(--orange);
-    font-size: 24px;
+    font-size: 1rem;
 }
 .blog__user-b{
     display: flex;
     justify-content: space-around;
     color: #DA8A51;
-    font-size: 24px;
+    font-size:1rem;
     align-items: center;
 }
 .blog__user-b a ,.blog__user-r a , .blog__user-r i {
     color: #DA8A51;
-    font-size: 24px;
+    font-size: 1rem;
 }
 .blog__user-r{
     width: 250px;
-    display: flex;
+    gap: 0.2rem;
     justify-content: space-around;
 }
 .blogs__globale{
