@@ -21,8 +21,8 @@ body {
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     border: none;
-    transition: all 0.3 ease;
-    border: none;
+    transition: 0.3s ease;
+    border:none;
 }
 
 .d-flex {
@@ -331,4 +331,7 @@ body {
     .footer__bottom-list a {
         font-size: 13px;
     }
+}
+.logo__title{
+    color: var(--yellow);
 }
