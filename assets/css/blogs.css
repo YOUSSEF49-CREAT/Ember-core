@@ -1,0 +1,123 @@
+.blogs{
+    background-color: #360a0a;
+    width: 100%;
+    padding: 100px 0;
+}
+.blogs__title{
+    text-align: center;
+    font-size: 72px;
+    color: var(--yellow);
+    text-shadow: 0 0 12px var(--orange);
+}
+.blogs__text{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    color:var(--grey); 
+}
+.blogs__heading-card-premire{
+    width: 60%;
+    height: 50%;
+    border-radius: 24px;
+    overflow: hidden;
+    transition: 0.6s;
+}
+.bolg__card__img{
+    height: 225px;
+
+}
+.bolg__card__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.blog__card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 24px;
+    padding: 20px;
+    background:linear-gradient(#360a0a,#671313) ;
+
+}
+.blog__card__content h3{
+    color: var(--orange);
+    font-size: 24px;
+}
+.blog__card__content {
+    font-size: 24px;
+    color: var(--grey);
+}
+.blog__card__con-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.blog__user i , .blog__user a , .blog__card__con-bottom a{
+    color: #DA8A51;
+    font-size: 24px;
+}
+.blog__user{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.blogs__heading , .blogs__heading-b {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.blogs__heading-card-secende{
+    width: 30%;
+    height: 50%;
+    border-radius: 24px;
+    overflow: hidden;
+    transition: 0.6s;
+}
+.blog__card__con-bottom-r{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(#360a0a,#671313) ;
+    border-radius: 16px;
+    padding: 20px;
+    gap: 30px;
+}
+.blog__card__con-bottom-r h3 {
+     color: var(--orange);
+    font-size: 24px;
+}
+.blog__user-b{
+    display: flex;
+    justify-content: space-around;
+    color: #DA8A51;
+    font-size: 24px;
+    align-items: center;
+}
+.blog__user-b a ,.blog__user-r a , .blog__user-r i {
+    color: #DA8A51;
+    font-size: 24px;
+}
+.blog__user-r{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.blogs__globale{
+    padding: 30px;
+}
+.blogs__heading-card-premire:hover , .blogs__heading-card-secende:hover{
+     box-shadow: 0 0 30px var(--yellow);
+    scale: 1.05;
+
+}
+@media screen and (max-width: 1030px){
+ .blogs__heading , .blogs__globale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .blogs__heading-card-secende , .blogs__heading-card-premire{
+    width: 80%;
+    margin: 20px auto;
+ }
+
+}
