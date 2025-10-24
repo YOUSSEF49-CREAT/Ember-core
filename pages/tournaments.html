@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/tournaments.css">
+    <title>Ember core - Esports</title>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="page-wrapper">
+            <div class="nav-wrapper">
+                <!-- <div class="grad-bar"></div> -->
+                <nav class="navbar">
+                    <div class="logo__container d-flex items-center gap-3">
+                        <img src="../assets/images/logo.webp" alt="logo">
+                        <h3 class="logo__title"> Ember Core</h3>
+                    </div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="./pages/tournaments.html">Tournaments</a></li>
+                        <li class="nav-item"><a href="./pages/teams.html">Teams</a></li>
+                        <li class="nav-item"><a href="./pages/games.html">Games</a></li>
+                        <li class="nav-item"><a href="./pages/blogs.html">Blogs</a></li>
+                        <li class="nav-item"><a href=" ./pages/events.html">Events</a></li>
+                        <li class="nav-item"><a href="./pages/contact.html">Contact</a></li>
+                        <li><button class="button button--primary">Join Now</button></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="Tournaments d-flex content-center items-center flex-column">
+            <div class="Tournaments__content">
+                <h1 class="Tournaments__title">Upcoming Tournaments</h1>
+                <p class="Tournaments__description"> Compete in the most exciting esports tournaments and prove your
+                    skills on the global stage.</p>
+            </div>
+            <div class="Tournaments__container">
+                <div class="Tournaments__cards">
+
+                    <div class="Tournaments__card">
+                        <div class="Tournaments__card-image_container">
+                            <img src="../assets/images/tournaments/vct-americas.webp" alt="Tournament 1"
+                                class="Tournaments__card-image">
+                        </div>
+                        <div class="Tournaments__card-content">
+                            <h2 class="Tournaments__card-title">VCT Americas</h2>
+                            <p class="Tournaments__card-description"> <i class="fa fa-gamepad"
+                                    aria-hidden="true"></i>Valorant</p>
+                            <p class="Tournaments__card-description"> <i class="fa fa-usd" aria-hidden="true"></i>45000
+                            </p>
+
+                        </div>
+                        <div class="Tournaments__card-actions">
+
+                            <button class="button--secondery">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="Tournaments__card">
+                        <div class="Tournaments__card-image_container">
+                            <img src="../assets/images/tournaments/tekken_champion.webp" alt="Tournament 1"
+                                class="Tournaments__card-image">
+                        </div>
+                        <div class="Tournaments__card-content">
+                            <h2 class="Tournaments__card-title">Tekken Champions</h2>
+                            <p class="Tournaments__card-description"> <i class="fa fa-gamepad"
+                                    aria-hidden="true"></i>Tekken</p>
+                            <p class="Tournaments__card-description"> <i class="fa fa-usd" aria-hidden="true"></i>10000
+                            </p>
+
+                        </div>
+                        <div class="Tournaments__card-actions">
+
+                            <button class="button--secondery">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="Tournaments__card">
+                        <div class="Tournaments__card-image_container">
+                            <img src="../assets/images/tournaments/lol_world-cup.webp" alt="Tournament 1"
+                                class="Tournaments__card-image">
+                        </div>
+                        <div class="Tournaments__card-content">
+                            <h2 class="Tournaments__card-title">LOL World cup</h2>
+                            <p class="Tournaments__card-description"> <i class="fa fa-gamepad"
+                                    aria-hidden="true"></i>League of legends</p>
+                            <p class="Tournaments__card-description"> <i class="fa fa-usd" aria-hidden="true"></i>23000
+                            </p>
+
+                        </div>
+                        <div class="Tournaments__card-actions">
+
+                            <button class="button--secondery">Learn More</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__conten">
+            <div class="footer__brand">
+                <div class="footer__tagline">
+                    <p class="footer__tagline-text">The ultimate platform for competitive gaming. Join tournaments,
+                        connect with teams, and rise through the ranks.</p>
+                </div>
+                <div class="sociale">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-twitch"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i> </a>
+                </div>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__heading">Platform</h3>
+                <ul class="footer__list">
+                    <li class="footer__link"><a href="">Tournaments</a></li>
+                    <li class="footer__link"><a href="">Teams</a></li>
+                    <li class="footer__link"><a href="">Games</a></li>
+                    <li class="footer__link"><a href="">Rankings</a></li>
+                    <li class="footer__link"><a href="">Live Streams</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__heading">Company</h3>
+                <ul class="footer__list">
+                    <li class="footer__link"><a href="">About Us</a></li>
+                    <li class="footer__link"><a href="">Careers</a></li>
+                    <li class="footer__link"><a href="">Press Kit</a></li>
+                    <li class="footer__link"><a href="">Partners</a></li>
+                    <li class="footer__link"><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__heading">Support</h3>
+                <ul class="footer__list">
+                    <li class="footer__link"><a href="">Help Center</a></li>
+                    <li class="footer__link"><a href="">Terms of Service</a></li>
+                    <li class="footer__link"><a href="">Privacy Policy</a></li>
+                    <li class="footer__link"><a href="">Cookie Policy</a></li>
+                    <li class="footer__link"><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer__infos">
+            <div class="footer__infos-content">
+                <div class="footer__infos-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="footer__info-content">
+                    <h4 class="footer__infos-title">Email</h4>
+                    <i class="footer__info-text">contact@esportnexus.gg</i>
+                </div>
+            </div>
+            <div class="footer__infos-content">
+                <div class="footer__infos-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="footer__info-content">
+                    <h4 class="footer__infos-title">Phone</h4>
+                    <i class="footer__info-text">+1 (555) 123-4567</i>
+                </div>
+            </div>
+            <div class="footer__infos-content">
+                <div class="footer__infos-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="footer__info-content">
+                    <h4 class="footer__infos-title">Location</h4>
+                    <i class="footer__info-text">Los Angeles, CA</i>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2025 E-Sport Nexus. All rights reserved.</p>
+            <ul class="footer__bottom-list">
+                <a class="footer__bottom-link" href="">Privacy</a>
+                <a class="footer__bottom-link" href="">Terms</a>
+                <a class="footer__bottom-link" href="">Cookies</a>
+            </ul>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+
+</html>
