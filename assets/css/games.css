@@ -1,0 +1,122 @@
+.games{
+    width: 100%;
+    padding-top: 50px;
+    background-color: #370007;
+    display: flex;
+    flex-direction: column;
+}
+.games .games__title{
+    text-align: center;
+    font-size: 72px;
+    margin: 24px;
+    color: var(--yellow);
+    text-shadow: 0 0 12px var(--orange);
+}
+.games .games__text{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    color:var(--grey); 
+}
+.cart1__game-head{
+    width: 70%;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+     
+}
+
+
+.game__image{
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+
+.game__image:hover{
+    box-shadow: 0 0 30px var(--yellow);
+    scale: 1.05;
+
+}
+.carte__game__content{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.carte__game__link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--yellow);
+    font-size: 40px;
+}
+.cart__game__text{
+    color: var(--light);
+    font-size: 25px;
+    flex-grow: 1;
+
+}
+.cart__game__btn{
+    width: 300px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: var(--yellow);
+    box-shadow: 0 0 20px var(--yellow);
+}
+.cart__games-globale{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cart__games-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .cart1__game-head{
+    width: 70%;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+}
+.cart__game__btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: var(--yellow);
+    box-shadow: 0 0 20px var(--yellow);
+}
+.carte__game__link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--yellow);
+    font-size: 25px;
+}
+.cart__game__text{
+    color: var(--light);
+    font-size: 15px;
+}
+ 
+}
+@media screen and (max-width: 820px){
+ .games ,.cart__games-globale , .cart__games-head{
+    display: flex;
+    flex-direction: column; 
+
+}
+}
