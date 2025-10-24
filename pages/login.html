@@ -49,10 +49,10 @@
     <main>
         <section class="login">
             <h1>LOG IN & RISE</h1>
-            <div class="login_container">
+            <form class="login_container">
                 <h2>Log in</h2>
-                <input type="text" placeholder="Username or email">
-                <input type="text" placeholder="Password">
+                <input type="text" placeholder="Username or email" required>
+                <input type="password" placeholder="Password" required>
 
                 <div class="login_alt">
                     <a href="">Forgot password?</a>
@@ -60,8 +60,8 @@
 
                 </div>
                 
-            <button class="button--primary" onclick="window.location.href='../admin/dashboard.html'">Log in</button>   
-            </div>
+            <button class="button--primary" type="submit" onclick="window.location.href='../admin/dashboard.html'">Log in</button>   
+            </form>
             
         </section>
     </main>
