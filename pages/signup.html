@@ -23,10 +23,10 @@
             <div class="nav-wrapper">
                 <!-- <div class="grad-bar"></div> -->
                 <nav class="navbar">
-                   <div class="logo__container d-flex items-center gap-3">
-                        <img src="./assets/images/logo.webp" alt="logo">
+                   <button class="logo__container d-flex items-center gap-3" onclick="window.location.href='../index.html'">
+                        <img src="../assets/images/logo.webp" alt="logo">
                        <h3 class="logo__title"> Ember Core</h3>
-                   </div>
+                   </button>
                     <div class="menu-toggle" id="mobile-menu">
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -39,7 +39,7 @@
                         <li class="nav-item"><a href="../pages/blogs.html">Blogs</a></li>
                         <li class="nav-item"><a href="../pages/events.html">Events</a></li>
                         <li class="nav-item"><a href="../pages/contact.html">Contact</a></li>
-                        <li><button class="button button--primary">Join Now</button></li>
+                        <li><button class="button button--primary" onclick="window.location.href='../pages/login.html'">Login</button></li>
 
                     </ul>
                 </nav>
@@ -50,7 +50,7 @@
     <main>
         <section class="signup">
             <h1>CREATE YOUR ACCOUNT</h1>
-            <div class="signup_container">
+            <form class="signup_container">
                 <h2>Sign up</h2>
                 <input type="text" placeholder="Username">
                 <input type="text" placeholder="Email">
@@ -59,8 +59,8 @@
                 
                 <a href="../pages/login.html">Already have an account ?</a>
 
-            <button class="button--primary">Sign in</button>   
-            </div>
+            <button class="button--primary" type="submit" onclick="window.location.href='../admin/dashboard.html'">Sign in</button>   
+            </form>
             
         </section>
     </main>
