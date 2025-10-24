@@ -3,7 +3,7 @@ main {
     padding-top: 8rem;
     position: relative;
     inset: 0;
-    background-image: url(/assets/images/redcity2.png);
+    background-image: url(../images/redcity2.png);
     background-size: cover;
     background-position: center;
 }
