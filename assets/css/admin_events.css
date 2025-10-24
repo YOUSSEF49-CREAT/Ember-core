@@ -1,0 +1,56 @@
+.event_container{
+    z-index: 1;
+}
+
+.event {
+    gap: 2rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event h1 {
+    z-index: 10;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--yellow);
+    text-shadow: 0 0 1.5rem var(--orange);
+}
+
+.event_container {
+    /* z-index: 1; */
+    max-width: 700px;
+    width: 90%;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background: linear-gradient(to bottom, var(--red-pinkish), var(--dark));
+}
+
+.event_container input,
+.event_container textarea {
+    border: none;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: var(--dark);
+    filter: opacity(66%);
+    color: var(--light);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.event_container .message {
+    resize: verticali;
+    height: 200px;
+}
+
+.event_container button {
+    width: 10rem;
+}
