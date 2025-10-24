@@ -9,14 +9,13 @@
     --yellow: #FFC300 ;
     --light: #fff5d3;
     --grey:#a9979a;
-    
 }
 
 *{
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     border: none;
-    transition: all 0.3 ease;
+    transition: 0.3s ease;
     border:none;
 }
 
@@ -225,4 +224,3 @@ body{
     color: var(--grey);
 
 }
-
