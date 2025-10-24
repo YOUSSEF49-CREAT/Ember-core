@@ -335,3 +335,7 @@ body {
 .logo__title{
     color: var(--yellow);
 }
+.logo__container{
+   background: none;
+   cursor: pointer;
+}
