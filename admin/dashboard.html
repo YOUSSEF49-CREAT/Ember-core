@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Dashbord</title>
+    <meta name="description" content="Esport - Ember Core">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+</head>
+
+<body>
+    <nav class="sidebare">
+        <div class="logo__container d-flex items-center gap-3">
+            <img src="../assets/images/logo.webp" alt="logo">
+            <h3 class="logo__title"> Ember Core</h3>
+        </div>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#" class="nav__link">Games</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">Players</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">Teams</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">Events</a>
+            </li>
+        </ul>
+        <button onclick="window.location.href='../index.html'" class="button--outlined-yellow logout__button"> <i
+                class="fa fa-sign-out" aria-hidden="true"></i>
+            Logout</button>
+    </nav>
+    <main class="dashboard">
+        <header class="dashboard__header d-flex items-center justify-between">
+            <div class="dashboard__header-actions">
+                <button class="dashboard__header-action" aria-label="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                <button class="dashboard__header-action" aria-label="check"><i class="fa fa-check" aria-hidden="true"></i></button>
+                <button class="dashboard__header-action" aria-label="list"><i class="fa fa-list" aria-hidden="true"></i></button>
+            </div>
+            <div class="search_bar">
+                <input type="text" placeholder="Search bar">
+                <i class="icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="dashboard__header-info d-flex">
+                <button class="dashboard__header-button" aria-label="settings"><i class="fa fa-cog"
+                        aria-hidden="true"></i></button>
+                <div class="user__img"><img src="../assets/images/users_pics/user5.webp" alt="user"></div>
+            </div>
+
+
+        </header>
+        <section class=" tabs d-flex content-center">
+            <div class="dashboard__tabs">
+                <button class="dashboard__tab">RANK</button>
+                <button class="dashboard__tab dashboard__tab--active">KDA</button>
+                <button class="dashboard__tab">WIN RATE</button>
+            </div>
+        </section>
+        <section class="stats ">
+            <div class="dashboard__stats d-flex content-around">
+                <div class="dashboard__stat">
+                    <div class="dashboard__stat-content d-flex gap-3 content-between">
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                        <div class="d-flex flex-column dashboard__stat-content-span">
+                            <strong>94</strong>
+                            <span>NEW COMMENTS</span>
+                        </div>
+                    </div>
+                    <div class="dashboard__stat-actions d-flex content-between gap-3">
+                        <p> View details</p>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+                <div class="dashboard__stat">
+                    <div class="dashboard__stat-content d-flex gap-3 content-between">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="d-flex flex-column dashboard__stat-content-span">
+                            <strong>33</strong>
+                            <span>Events</span>
+                        </div>
+                    </div>
+                    <div class="dashboard__stat-actions d-flex content-between gap-3">
+                        <p> View details</p>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="dashboard__stat">
+                    <div class="dashboard__stat-content d-flex gap-3 content-between">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <div class="d-flex flex-column dashboard__stat-content-span">
+                            <strong>100</strong>
+                            <span>NEW USERS</span>
+                        </div>
+                    </div>
+                    <div class="dashboard__stat-actions d-flex content-between gap-3">
+                        <p> View details</p>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="leaderboard">
+            <table class="leaderboard__table">
+                <thead class="leaderboard__head">
+                    <tr class="leaderboard__row">
+                        <th class="leaderboard__column">Rank</th>
+                        <th class="leaderboard__column">Username</th>
+                        <th class="leaderboard__column">Level</th>
+                        <th class="leaderboard__column">Win</th>
+                        <th class="leaderboard__column">KDA</th>
+                    </tr>
+                </thead>
+                <tbody class="leaderboard__body">
+                    <tr class="leaderboard__row">
+                        <td class="leaderboard__cellule">1</td>
+                        <td class="leaderboard__cellule d-flex items-center">
+                            <div class="user__img"><img src="../assets/images/users_pics/user3.webp" alt="user"></div> Joseph
+                        </td>
+                        <td class="leaderboard__cellule">770</td>
+                        <td class="leaderboard__cellule">50</td>
+                        <td class="leaderboard__cellule">70</td>
+                    </tr>
+                    <tr class="leaderboard__row">
+                        <td class="leaderboard__cellule">2</td>
+                        <td class="leaderboard__cellule d-flex items-center">
+                            <div class="user__img"><img src="../assets/images/users_pics/user2.webp" alt="user"></div> Brolyyy
+                        </td>
+                        <td class="leaderboard__cellule">695</td>
+                        <td class="leaderboard__cellule">43</td>
+                        <td class="leaderboard__cellule">63</td>
+                    </tr>
+                    <tr class="leaderboard__row">
+                        <td class="leaderboard__cellule">3</td>
+                        <td class="leaderboard__cellule d-flex items-center">
+                            <div class="user__img"><img src="../assets/images/users_pics/user4.webp" alt="user"></div> Azizxx
+                        </td>
+                        <td class="leaderboard__cellule">604</td>
+                        <td class="leaderboard__cellule">42</td>
+                        <td class="leaderboard__cellule">50</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
