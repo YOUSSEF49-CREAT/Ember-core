@@ -216,22 +216,19 @@ input {
     display: flex;
     flex-direction: column;
     position: fixed;
-    justify-content: start;
+    justify-content: space-evenly;
     top: 55px;
+    gap: 1px;
     background:linear-gradient(to bottom , #370007 , var(--red-pinkish));
     width: 100%;
-    height: calc(100vh - 55px);
-    transform: translate(-101%);
+    /* height: calc(100vh); */
+    transform: translate(-110%);
     text-align: center;
     overflow: hidden;
   }
 
-  .navbar li {
-    padding: 15px;
-  }
-
   .navbar li:first-child {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .navbar li a {
@@ -245,7 +242,7 @@ input {
   }
 
   .mobile-nav {
-    transform: translate(0%) !important;
+    transform: translate(-10%) !important;
   }
 
   /* SEARCH DISABLED ON MOBILE */
