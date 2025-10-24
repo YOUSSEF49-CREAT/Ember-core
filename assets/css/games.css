@@ -1,19 +1,22 @@
 .games{
     width: 100%;
+    padding-top: 50px;
     background-color: #370007;
     display: flex;
     flex-direction: column;
 }
 .games .games__title{
     text-align: center;
+    font-size: 72px;
     margin: 24px;
-    color: #FFC300;
-    text-shadow: 0 0 12px #FFC300 ;
+    color: var(--yellow);
+    text-shadow: 0 0 12px var(--orange);
 }
 .games .games__text{
     text-align: center;
+    font-size: 24px;
     margin: 10px;
-    color:rgb(121, 119, 119); 
+    color:var(--grey); 
 }
 .cart1__game-head{
     width: 70%;
@@ -54,11 +57,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #FFC300;
+    color: var(--yellow);
     font-size: 40px;
 }
 .cart__game__text{
-    color: white;
+    color: var(--light);
     font-size: 25px;
     flex-grow: 1;
 
@@ -67,8 +70,8 @@
     width: 300px;
     height: 40px;
     border-radius: 16px;
-    background-color: #FFC300;
-    box-shadow: 0 0 20px #FFC300;
+    background-color: var(--yellow);
+    box-shadow: 0 0 20px var(--yellow);
 }
 .cart__games-globale{
     display: flex;
@@ -94,18 +97,18 @@
     width: 200px;
     height: 40px;
     border-radius: 16px;
-    background-color: #FFC300;
-    box-shadow: 0 0 20px #FFC300;
+    background-color: var(--yellow);
+    box-shadow: 0 0 20px var(--yellow);
 }
 .carte__game__link{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #FFC300;
+    color: var(--yellow);
     font-size: 25px;
 }
 .cart__game__text{
-    color: white;
+    color: var(--light);
     font-size: 15px;
 }
  
