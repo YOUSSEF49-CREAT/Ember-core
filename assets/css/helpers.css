@@ -395,11 +395,12 @@ input {
 
 .faq-container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 0px auto;
   background: white;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  z-index: 100;
 }
 
 h1 {
