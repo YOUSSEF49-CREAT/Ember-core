@@ -332,3 +332,6 @@ body {
         font-size: 13px;
     }
 }
+.logo__title{
+    color: var(--yellow);
+}
